@@ -1,0 +1,360 @@
+@media(max-width:1000px){
+    .hero{
+        gap:35px
+    }
+    .steps-grid{
+        grid-template-columns:repeat(2,1fr)
+    }
+    .portal-layout{
+        grid-template-columns:220px minmax(0,1fr)
+    }
+    .portal-content{
+        padding-inline:3%
+    }
+    .admin-document-list{
+        grid-template-columns:1fr
+    }
+}
+
+@media(max-width:760px){
+    .topbar{
+        height:auto;
+        min-height:75px;
+        padding:16px 5%;
+        gap:14px
+    }
+    .topbar nav{
+        gap:15px
+    }
+    .topbar nav>a:not(.nav-login){
+        display:none
+    }
+    .nav-login{
+        padding:10px 12px;
+        font-size:10px
+    }
+    .wrap{
+        width:90%
+    }
+    .hero{
+        grid-template-columns:1fr;
+        padding-block:48px;
+        gap:35px
+    }
+    .hero h1{
+        font-size:clamp(40px,10vw,58px);
+        letter-spacing:-2.5px
+    }
+    .hero-art{
+        min-height:330px
+    }
+    .feature-strip{
+        grid-template-columns:1fr;
+        gap:0
+    }
+    .feature-strip>div{
+        justify-content:flex-start;
+        padding:14px 7%
+    }
+    .feature-strip>div+div{
+        border-left:0;
+        border-top:1px solid var(--line)
+    }
+    .process-section{
+        padding-block:60px
+    }
+    .steps-grid{
+        gap:12px
+    }
+    .step-card{
+        padding:19px 15px
+    }
+    .cta-band{
+        align-items:flex-start;
+        flex-direction:column;
+        padding:25px;
+        margin-bottom:45px
+    }
+    .site-footer{
+        align-items:flex-start;
+        flex-direction:column
+    }
+    .login-layout{
+        grid-template-columns:1fr
+    }
+    .login-aside{
+        padding:24px 7%
+    }
+    .login-aside-copy{
+        padding:35px 0 18px
+    }
+    .login-aside-copy h1{
+        font-size:35px
+    }
+    .aside-points{
+        grid-template-columns:1fr 1fr
+    }
+    .aside-footer{
+        padding-top:10px
+    }
+    .login-main{
+        padding:25px 7% 45px
+    }
+    .login-box{
+        padding-block:25px
+    }
+    .portal-layout{
+        grid-template-columns:1fr
+    }
+    .portal-sidebar{
+        position:fixed;
+        left:0;
+        top:0;
+        width:265px;
+        height:100dvh;
+        transform:translateX(-105%);
+        transition:transform .2s;
+        box-shadow:none
+    }
+    .portal-sidebar.sidebar-open{
+        transform:translateX(0);
+        box-shadow:10px 0 40px #0b2b131f
+    }
+    .mobile-scrim{
+        display:block;
+        position:fixed;
+        inset:0;
+        z-index:9;
+        border:0;
+        background:#132b1970
+    }
+    .mobile-menu{
+        display:grid;
+        place-items:center;
+        width:35px;
+        height:35px;
+        border:1px solid var(--line);
+        border-radius:7px;
+        background:#fff;
+        color:var(--green)
+    }
+    .mobile-menu svg{
+        width:17px
+    }
+    .portal-topbar{
+        height:68px;
+        padding-inline:5%
+    }
+    .portal-content{
+        padding:25px 5% 45px
+    }
+    .page-heading{
+        align-items:flex-start;
+        flex-direction:column
+    }
+    .page-heading h1{
+        font-size:24px
+    }
+    .welcome-panel{
+        padding:23px
+    }
+    .welcome-art{
+        width:52px;
+        height:52px;
+        border-radius:14px
+    }
+    .welcome-art svg{
+        width:33px
+    }
+    .stat-grid{
+        grid-template-columns:1fr;
+        gap:11px
+    }
+    .stat-card{
+        display:grid;
+        grid-template-columns:37px 1fr;
+        column-gap:12px;
+        align-items:center;
+        padding:14px
+    }
+    .stat-icon{
+        grid-row:1/4;
+        margin:0
+    }
+    .stat-label{
+        align-self:end
+    }
+    .stat-value{
+        margin-top:4px;
+        font-size:15px
+    }
+    .stat-note{
+        margin-top:4px
+    }
+    .portal-card{
+        padding:17px
+    }
+    .upload-row{
+        flex-wrap:wrap;
+        gap:9px
+    }
+    .upload-info{
+        flex-basis:calc(100% - 60px)
+    }
+    .upload-button{
+        margin-left:40px
+    }
+    .identity-grid,.review-summary,.bio-form{
+        grid-template-columns:1fr
+    }
+    .field-wide,.form-footer{
+        grid-column:auto
+    }
+    .form-footer{
+        align-items:flex-start;
+        flex-direction:column
+    }
+    .admin-document-list{
+        grid-template-columns:1fr
+    }
+    .review-actions{
+        justify-content:stretch
+    }
+    .review-actions .button{
+        flex:1
+    }
+    .clearance-paper{
+        padding:22px
+    }
+    .slip-header h1{
+        font-size:14px
+    }
+    .slip-mark{
+        width:47px;
+        height:47px;
+        font-size:25px
+    }
+    .slip-grid{
+        grid-template-columns:1fr
+    }
+    .slip-signatures{
+        margin-top:25px
+    }
+    .no-print{
+        gap:12px
+    }
+}
+
+@media(max-width:420px){
+    .brand strong{
+        font-size:12px
+    }
+    .brand small{
+        font-size:7px
+    }
+    .topbar .brand{
+        gap:8px
+    }
+    .topbar .brand-mark{
+        width:37px;
+        height:37px
+    }
+    .nav-login{
+        gap:5px
+    }
+    .hero-actions .button{
+        width:100%
+    }
+    .hero-art{
+        min-height:300px
+    }
+    .preview-card{
+        width:83%;
+        padding:19px
+    }
+    .floating-note{
+        right:-5px;
+        bottom:20px
+    }
+    .steps-grid{
+        grid-template-columns:1fr
+    }
+    .step-card p{
+        min-height:0
+    }
+    .aside-points{
+        grid-template-columns:1fr
+    }
+    .login-aside-copy h1{
+        font-size:31px
+    }
+    .portal-content{
+        padding-inline:4%
+    }
+    .welcome-panel h2{
+        font-size:20px
+    }
+    .welcome-art{
+        display:none
+    }
+    .card-title-row{
+        align-items:flex-start
+    }
+    .card-title-row h2{
+        font-size:14px
+    }
+    .review-actions{
+        flex-direction:column
+    }
+    .clearance-paper{
+        padding:15px
+    }
+    .slip-header{
+        gap:10px
+    }
+    .slip-header h1{
+        font-size:11px
+    }
+    .slip-header p,.slip-header div>span{
+        font-size:7px
+    }
+    .slip-mark{
+        width:40px;
+        height:40px;
+        font-size:21px
+    }
+}
+
+@media print{
+    body{
+        background:#fff!important
+    }
+    .portal-sidebar,.portal-topbar,.no-print,.portal-content>.page-heading,.site-footer,.mobile-menu{
+        display:none!important
+    }
+    .portal-layout{
+        display:block;
+        background:#fff
+    }
+    .portal-main,.portal-content{
+        padding:0!important;
+        margin:0!important;
+        width:100%!important
+    }
+    .clearance-paper{
+        width:100%
+        ;margin:0;
+        padding:25px;
+        border:0;
+        box-shadow:none;
+        page-break-inside:avoid
+    }
+    .slip-note{
+        print-color-adjust:exact;
+        -webkit-print-color-adjust:exact
+    }
+    .slip-approved,.slip-mark{
+        print-color-adjust:exact;
+        -webkit-print-color-adjust:exact
+    }
+}

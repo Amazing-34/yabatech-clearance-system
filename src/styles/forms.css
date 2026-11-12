@@ -1,0 +1,252 @@
+.login-box{
+    width:100%;
+    max-width:410px;
+    padding-block:22px
+}
+
+.login-symbol{
+    display:grid;
+    place-items:center;
+    width:47px;
+    height:47px;
+    margin-bottom:23px;
+    border-radius:13px;
+    background:#eaf5eb;
+    color:var(--green)
+}
+
+.login-symbol svg{
+    width:23px
+}
+
+.login-box h2{
+    margin:12px 0 8px;
+    font-size:29px;
+    letter-spacing:-1px
+}
+
+.login-subtitle{
+    margin:0 0 27px;
+    color:var(--muted);
+    font-size:11px;
+    line-height:1.8
+}
+
+.login-box form>label,.field label{
+    display:block;
+    margin:0 0 8px;
+    color:#3e493f;
+    font-size:11px;
+    font-weight:650
+}
+
+.login-box form>input,.password-input input,.field input,.field textarea{
+    width:100%;
+    min-width:0;
+    padding:13px;
+    border:1px solid #dfe6df;
+    border-radius:8px;
+    outline:none;
+    background:#fff;
+    color:var(--ink);
+    font-size:11px
+}
+
+.login-box form>input{
+    margin-bottom:19px
+}
+
+.login-box input:focus,.field textarea:focus{
+    border-color:var(--green);
+    box-shadow:0 0 0 3px #00843d12
+}
+
+.password-input{
+    position:relative;
+    margin-bottom:17px
+}
+
+.password-input input{
+    padding-right:58px
+}
+
+.show-password{
+    position:absolute;
+    top:50%;
+    right:12px;
+    transform:translateY(-50%);
+    border:0;
+    background:transparent;
+    color:var(--green);
+    font-size:10px;
+    font-weight:700
+}
+
+.form-options{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:10px;
+    margin-bottom:20px
+}
+
+.remember{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    color:var(--muted);
+    font-size:10px
+}
+
+.remember input,.toggle-label input{
+    accent-color:var(--green)
+}
+
+.demo-only{
+    color:#8b958b;
+    font-size:9px
+}
+
+.form-alert,.notice-banner{
+    padding:11px 12px;
+    border-radius:7px;
+    background:#fff3d1;
+    color:#735b00;
+    font-size:10px;
+    line-height:1.7
+}
+
+.login-submit{
+    width:100%;
+    margin-top:2px
+}
+
+.demo-credentials{
+    margin-top:24px;
+    padding:15px;
+    border:1px solid var(--line);
+    border-radius:10px;
+    background:#fafcfa
+}
+
+.demo-credentials>b{
+    display:block;
+    margin-bottom:12px;
+    font-size:10px
+}
+
+.demo-credentials>div{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    margin-top:8px;
+    color:var(--muted);
+    font-size:10px
+}
+
+.demo-credentials code{
+    color:var(--green);
+    font-size:10px
+}
+
+.login-switch{
+    margin-top:21px;
+    color:var(--muted);
+    font-size:10px;
+    text-align:center
+}
+
+.login-switch a{
+    color:var(--green);
+    font-weight:700
+}
+
+.prototype-note{
+    color:#929b93;
+    font-size:9px;
+    line-height:1.7;
+    text-align:center
+}
+
+.bio-form{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:16px;
+    margin-top:19px
+}
+
+.field{
+    min-width:0
+}
+
+.field-wide{
+    grid-column:1/-1
+}
+
+.field input,.field textarea{
+    display:block
+}
+
+.field textarea{
+    resize:vertical;
+    line-height:1.7
+}
+
+.form-footer{
+    grid-column:1/-1;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    padding-top:5px
+}
+
+.muted-small,.saved-message{
+    font-size:9px;
+    color:#8a948b
+}
+
+.saved-message{
+    color:var(--green);
+    font-weight:700
+}
+
+.upload-button{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    padding:8px 10px;
+    border:1px solid #dfe8df;
+    border-radius:7px;
+    color:var(--green);
+    font-size:9px;
+    font-weight:700;
+    white-space:nowrap;
+    cursor:pointer
+}
+
+.upload-button:hover{
+    background:#f2f8f2
+}
+
+.upload-button input{
+    display:none
+}
+
+.toggle-label{
+    display:flex;
+    align-items:center;
+    gap:7px;
+    white-space:nowrap;
+    color:var(--green);
+    font-size:10px;
+    font-weight:700
+}
+
+.review-feedback{
+    margin-top:20px
+}
+
+.review-feedback textarea{
+    width:100%
+}

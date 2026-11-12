@@ -1,0 +1,16 @@
+:root{
+    font-family:"Inter",sans-serif;
+    color:#202a22;
+    background:#fff;
+    font-synthesis:none;
+    text-rendering:optimizeLegibility;
+    -webkit-font-smoothing:antialiased;
+    --green:#00843d;
+    --green-dark:#006b32;
+    --yellow:#ffd100;
+    --ink:#202a22;
+    --muted:#6f7b71;
+    --line:#e5ece5;
+    --surface:#f5f8f5;
+    --red:#b83a35
+}
